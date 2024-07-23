@@ -44,6 +44,7 @@ const data = {
 
 export default function ServiceSection() {
   // modal popup video handler
+  //modal
   const [videoOpen, setVideoOpen] = useState(false);
   const handleClick = (e) => {
     e.preventDefault();
