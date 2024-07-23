@@ -5,7 +5,7 @@ export default [
   },
   {
     path: "feature",
-    label: "О Нас",
+    label: "Про Нас",
   },
   {
     path: "pricing",

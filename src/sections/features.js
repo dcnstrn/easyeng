@@ -12,26 +12,26 @@ const data = [
   {
     id: 1,
     color: "#28D1DC",
-    value: "80K+",
-    title: "We have more than customers",
+    value: "1000+",
+    title: "Студентів, які досягли своєї мети",
   },
   {
     id: 2,
     color: "#FF753A",
-    value: "150+",
-    title: "Free online tutorials videos available",
+    value: "70%",
+    title: "Студентів приходять за рекомендаціями",
   },
   {
     id: 3,
     color: "#FA578E",
-    value: "90+",
-    title: "Daily updated blog post maintain",
+    value: "150+",
+    title: "тічерів в команді",
   },
   {
     id: 4,
     color: "#28DCB2",
-    value: "& 3M",
-    title: "Job posted everyday`s with  qualification",
+    value: "20",
+    title: "Авторських програм навчання",
   },
 ];
 
@@ -49,20 +49,17 @@ const Features = () => {
             <SectionHeading
               sx={styles.heading}
               title={
-                <Fragment>
-                  Smart Jackpots <br />
-                  that you may love this anytime &amp; anywhere
-                </Fragment>
+                <Fragment>Наша місія — your freedom у досягненні мрій</Fragment>
               }
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              description="Наше головне завдання – дати тобі свободу у вивченні англійської та звільнити від блокерів, аби тобі вдалося реалізувати свої мрії та цілі, які до цього були недоступними саме через мову."
             />
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Unlimited design possibility
+              Більше 2х років ефективно навчаємо англійській
             </Text>
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Completely responsive features
+              Ідеальна атмосфера
             </Text>
             <Box sx={styles.explore}>
               {/* <Link path="#!" label="Explore More" /> */}

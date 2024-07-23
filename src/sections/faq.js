@@ -4,44 +4,49 @@ import SectionHeader from "components/section-header";
 import Accordion from "components/accordion/accordion";
 const faqs = [
   {
-    title: "How to contact with riders emergency ?",
+    title: "Я не знаю свій рівень володіння англійською мовою. Що мені робити?",
     contents: (
       <div>
-        Get your website ads tests delivered at let collect sample from the
-        victory of the managements that supplies best design system which
-        guidelines ever with multiple features.
+        Якщо ви не знаєте свій рівень англійської, не впадайте у відчай, існує
+        кілька варіантів, як його з’ясувати. Варіант перший — пройти онлайн
+        тестування. Варіант другий — звернутися до досвідченого викладача, який
+        проведе онлайн тестування і максимально точно та об’єктивно оцінить ваш
+        рівень володіння мовою. Після цього ви можете продовжити уроки
+        англійської онлайн як з викладачем, так і самостійно, проте обравши вже
+        програму з урахуванням свого рівня володіння англійською.
       </div>
     ),
   },
   {
-    title: "App installation failed, how to update system information?",
+    title: "Чому зручно займатися англійською онлайн з викладачем?",
     contents: (
       <div>
-        Rhino skin maybe thick but it can be quite sensitive to sunburns and
-        insect bites which is why they like wallow so much – when the mud dries
-        it acts as protection from the sunburns and insects.
+        Персональне навчання з викладачем, з повним розумінням і залученістю в
+        твоє ефективне навчання протягом кожного уроку тривалістю в 50 хвилин.
+        Наші викладачі, так само як і студенти, проводять уроки з дому. Тому ми
+        не витрачаємо гроші на оренду приміщення та супутні витрати. Це дозволяє
+        нам встановлювати ціни на курси англійської нижче, ніж у оффлайн-шкіл.
       </div>
     ),
   },
   {
-    title: `Website response taking time, how to improve?`,
+    title: `Скільки коштує одне заняття?`,
     contents: (
       <div>
-        Get your blood tests delivered at the home collect a sample from
-        management news. Get your blood tests delivered at the home collect a
-        sample from management news. Get your blood tests delivered at the home
-        collect a sample from management news. Get your blood tests delivered at
-        the home.
+        Вартість заняття залежить від двох чинників: пакет навчання і викладач
+        (локальним або англомовний). При покупці пакета від 50 уроків кожен з
+        них буде коштувати $ 12 або $ 22 відповідно. На окремій сторінці ви
+        можете подивитися інші варіанти і валюти.
       </div>
     ),
   },
   {
-    title: `New update fixed all bug and issues`,
+    title: `Що потрібно, щоб приступити до занять англійською онлайн з викладачем?`,
     contents: (
       <div>
-        If you’re looking to hunt a unicorn, but don’t know where to begin, try
-        Lake Superior State University in Sault Ste. Marie, Michigan. Since
-        1971, the university has issued permits to unicorn questers.
+        Залишити заявку на БЕЗКОШТОВНИЙ пробний урок, на якому методист
+        розповість про нашу сучасну онлайн-школу, визначить рівень та підбере
+        програму згідно з вашою метою і інтересами.
       </div>
     ),
   },
@@ -51,8 +56,8 @@ export default function Faq() {
     <Box as="section" id="faq" variant="section.faq">
       <Container>
         <SectionHeader
-          title="Do you have any quesiton"
-          slogan="Our support team ready to help you, please contact with them"
+          title="Відповіді на типові запитання"
+          slogan="Наша команда завжди готова вам допомогті та відповісти на будь які запитання"
         />
         <Box
           sx={{
